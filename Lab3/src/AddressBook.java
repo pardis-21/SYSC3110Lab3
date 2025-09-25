@@ -14,6 +14,9 @@ public class AddressBook {
     public void removeBuddy(BuddyInfo buddy){
         addressBook.remove(buddy);
     }
+    public ArrayList<BuddyInfo> getBuddies(){
+        return addressBook;
+    }
 
     public static void main(String[] args) {
 
