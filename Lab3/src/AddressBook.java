@@ -26,7 +26,6 @@ public class AddressBook {
         BuddyInfo buddy = new BuddyInfo("TOM", "SMITH", 22);
         AddressBook addressBook = new AddressBook();
         addressBook.addBuddy(buddy);
-        System.out.println("This is the new branch");
 
     }
 
