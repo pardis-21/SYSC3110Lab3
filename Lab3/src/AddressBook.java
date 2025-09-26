@@ -23,8 +23,6 @@ public class AddressBook {
         BuddyInfo buddy = new BuddyInfo("TOM", "SMITH", 22);
         AddressBook addressBook = new AddressBook();
         addressBook.addBuddy(buddy);
-        addressBook.removeBuddy(buddy);
-        System.out.println("TESTING");
     }
 
 }
