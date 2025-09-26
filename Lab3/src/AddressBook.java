@@ -17,13 +17,17 @@ public class AddressBook {
     public ArrayList<BuddyInfo> getBuddies(){
         return addressBook;
     }
+    public void setAddressBook(ArrayList<BuddyInfo> addressBook) {
+        this.addressBook = addressBook;
+    }
 
     public static void main(String[] args) {
 
         BuddyInfo buddy = new BuddyInfo("TOM", "SMITH", 22);
         AddressBook addressBook = new AddressBook();
         addressBook.addBuddy(buddy);
-        System.out.println("Change in github from the new branch");
+        System.out.println("This is the new branch");
+
     }
 
 }
