@@ -14,14 +14,15 @@ public class AddressBook {
     public void removeBuddy(BuddyInfo buddy){
         addressBook.remove(buddy);
     }
+    public ArrayList<BuddyInfo> getBuddies(){
+        return addressBook;
+    }
 
     public static void main(String[] args) {
 
         BuddyInfo buddy = new BuddyInfo("TOM", "SMITH", 22);
         AddressBook addressBook = new AddressBook();
         addressBook.addBuddy(buddy);
-        addressBook.removeBuddy(buddy);
-        System.out.println("Address Book");
     }
 
 }
